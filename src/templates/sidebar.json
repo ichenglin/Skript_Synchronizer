@@ -1,0 +1,48 @@
+{
+    "primary": {
+        "items": [
+            {
+                "index": 0,
+                "id": "file-explorer",
+                "name": "File Explorer",
+                "icon": "far fa-copy",
+                "icon-size": "40px"
+            },
+            {
+                "index": 1,
+                "id": "file-uploader",
+                "name": "File Uploader",
+                "icon": "fas fa-cloud-upload-alt",
+                "icon-size": "35px"
+            },
+            {
+                "index": 2,
+                "id": "terminal",
+                "name": "Terminal",
+                "icon": "fas fa-terminal",
+                "icon-size": "30px"
+            },
+            {
+                "index": 3,
+                "id": "branch",
+                "name": "Branch",
+                "icon": "fas fa-code-branch",
+                "icon-size": "42px"
+            },
+            {
+                "index": 4,
+                "id": "shortcuts",
+                "name": "Shortcuts",
+                "icon": "far fa-star",
+                "icon-size": "40px"
+            },
+            {
+                "index": 5,
+                "id": "settings",
+                "name": "Settings",
+                "icon": "fas fa-cogs",
+                "icon-size": "35px"
+            }
+        ]
+    }
+}

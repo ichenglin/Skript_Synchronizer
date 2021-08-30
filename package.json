@@ -1,0 +1,66 @@
+{
+  "name": "cubedcraft-file-uploader",
+  "description": "Assistance Tool For Uploading Files To CubedCraft File Manager",
+  "author": "I Cheng Lin",
+  "version": "1.0.0",
+  "main": "public/electron.js",
+  "build": {
+    "productName": "CubedCraft File Uploader",
+    "appId": "cubedcraft-file-uploader",
+    "win": {
+      "icon": "build/icon.png"
+    },
+    "nsis": {
+      "deleteAppDataOnUninstall": true
+    }
+  },
+  "homepage": "./",
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "cheerio": "^1.0.0-rc.10",
+    "chokidar": "^3.5.2",
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.1.1",
+    "electron-is-dev": "^2.0.0",
+    "node-fetch": "^2.6.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "react-start": "react-scripts start",
+    "react-build": "react-scripts build",
+    "react-test": "react-scripts test",
+    "react-eject": "react-scripts eject",
+    "electron-build": "electron-builder",
+    "build": "npm run react-build && npm run electron-build",
+    "start": "concurrently \"cross-env BROWSER=none npm run react-start\" \"wait-on http://localhost:3000 && electron .\""
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.1",
+    "electron": "^13.1.8",
+    "electron-builder": "^22.11.7",
+    "wait-on": "^6.0.0"
+  }
+}

@@ -1,0 +1,190 @@
+{
+    "editor": {
+        "index": {
+            "idle": {
+                "foreground": "#D4D4D4",
+                "background": "#3A3D41"
+            },
+            "selected": {
+                "foreground": "#D4D4D4",
+                "background": "#1E1E1E"
+            }
+        },
+        "content": {
+            "idle": {
+                "foreground": "#D4D4D4",
+                "background": "#3A3D41"
+            },
+            "selected": {
+                "foreground": "#D4D4D4",
+                "background": "#1E1E1E"
+            }
+        },
+        "scrollbar": {
+            "foreground": "rgba(255, 255, 255, 0.2)"
+        }
+    },
+    "uploader": {
+        "panel": {
+            "background": "#3A3D41"
+        },
+        "toggle": {
+            "container": {
+                "foreground": "#D4D4D4",
+                "background": "#434749"
+            },
+            "button": {
+                "enabled": {
+                    "foreground": "#FFFFFF",
+                    "background": "#369432"
+                },
+                "disabled": {
+                    "foreground": "#FFFFFF",
+                    "background": "#F44747"
+                },
+                "initializing": {
+                    "foreground": "#FFFFFF",
+                    "background": "#D16D45"
+                }
+            }
+        },
+        "path-selector": {
+            "container": {
+                "foreground": "#D4D4D4",
+                "background": "#434749"
+            },
+            "input-field": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355"
+            },
+            "input-status": {
+                "verified": {
+                    "foreground": "#FFFFFF",
+                    "background": "#369432"
+                },
+                "await": {
+                    "foreground": "#FFFFFF",
+                    "background": "#D16D45"
+                },
+                "error": {
+                    "foreground": "#FFFFFF",
+                    "background": "#F44747"
+                }
+            }
+        },
+        "commands": {
+            "container": {
+                "foreground": "#D4D4D4",
+                "background": "#434749"
+            },
+            "input-field": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355"
+            },
+            "input-remove": {
+                "foreground": "#FFFFFF",
+                "background": "#F44747"
+            },
+            "input-new": {
+                "foreground": "#D4D4D4",
+                "background": "#4E5355"
+            }
+        },
+        "description": {
+            "foreground": "#D4D4D4",
+            "background": "#434749"
+        },
+        "report": {
+            "container": {
+                "foreground": "#D4D4D4",
+                "background": "#434749"
+            },
+            "content": {
+                "foreground": "#D4D4D4",
+                "background": "#4E5355"
+            }
+        },
+        "scrollbar": {
+            "foreground": "rgba(255, 255, 255, 0.2)"
+        }
+    },
+    "sidebar": {
+        "primary": {
+            "idle": {
+                "foreground": "#D4D4D4",
+                "background": "#383B3D",
+                "border": "#383B3D"
+            },
+            "hovered": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355",
+                "border": "#4E5355"
+            },
+            "selected": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355",
+                "border": "#D4D4D4"
+            }
+        },
+        "secondary": {
+            "idle": {
+                "foreground": "#D4D4D4",
+                "background": "#434749"
+            },
+            "hovered": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355"
+            },
+            "selected": {
+                "foreground": "#FFFFFF",
+                "background": "#4E5355"
+            },
+            "scrollbar": {
+                "foreground": "rgba(255, 255, 255, 0.2)"
+            }
+        },
+        "secondary-header": {
+            "foreground": "#FFFFFF",
+            "background": "#434749"
+        },
+        "profile": {
+            "foreground": "#4E5355",
+            "background": "#434749",
+            "content": "#FFFFFF",
+            "border": "#FFFFFF"
+        }
+    },
+    "footer": {
+        "default": {
+            "background": "#007ACC"
+        }
+    },
+    "login": {
+        "header": {
+            "foreground": "#FFFFFF",
+            "background": "#383B3D"
+        },
+        "form": {
+            "foreground": "#FFFFFF",
+            "background": "#4E5355"
+        },
+        "field": {
+            "foreground": "#FFFFFF",
+            "background": "#383B3D",
+            "placeholder": "#D4D4D4"
+        },
+        "submission": {
+            "foreground": "#FFFFFF",
+            "background": "#383B3D"
+        },
+        "loader": {
+            "foreground": "#3498DB",
+            "background": "#f3f3f3",
+            "text": "#FFFFFF"
+        }
+    },
+    "incomplete": {
+        "foreground": "#D4D4D4",
+        "background": "#383B3D"
+    }
+}

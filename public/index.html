@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8" />
+		<title>CubedCraft File Uploader</title>
+
+		<link rel="stylesheet" href="font-awesome-icons/css/all.css">
+
+	</head>
+	<body>
+
+		<noscript>You need to enable JavaScript to run this app.</noscript>
+		<div id="root"></div>
+
+		<script>
+			// Window Initial Size
+			updateWindowSize();
+
+			// Window Resize Event
+			window.addEventListener("resize", () => {
+				updateWindowSize();
+			});
+
+			// Update Window Size To CSS
+			// (I Prefer Using Reliable Caculation Instead Of 100% For Element Auto Resize)
+			function updateWindowSize() {
+				const root = document.documentElement;
+				root.style.setProperty("--windowWidth", window.innerWidth + "px");
+				root.style.setProperty("--windowHeight", window.innerHeight + "px");
+				//console.log("Window Size Update: " + window.innerWidth + "x" + window.innerHeight);
+			}
+		</script>
+
+	</body>
+</html>
