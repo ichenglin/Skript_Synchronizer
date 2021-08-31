@@ -3,8 +3,6 @@ const { default: LoadText } = require("../../globalComponents/LoadText");
 
 function UploaderMainUploaderToggle({title, value, toggleCallBack}) {
 
-    //let toggleStatus;
-    //const toggleStatus = (value === true ? {id: "enabled", display: "Enabled"} : {id: "disabled", display: "Disabled"});
     const statusDisplay = {
         enabled: (
             <>

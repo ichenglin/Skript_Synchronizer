@@ -9,7 +9,6 @@ function UploaderMainFull({sidebarPrimarySelection, uploaderEditorFile, uploader
     let uploaderMainHeaderDisplay, uploaderMainContent;
 
     if (sidebarPrimarySelection.id === "file-explorer") {
-
         uploaderMainContent = (
             <UploaderMainEditor
                 uploaderEditorFile={uploaderEditorFile}
@@ -25,9 +24,7 @@ function UploaderMainFull({sidebarPrimarySelection, uploaderEditorFile, uploader
         } else {
             uploaderMainHeaderDisplay = "No File Selected";
         }
-
     } else if (sidebarPrimarySelection.id === "file-uploader") {
-
         uploaderMainContent = (
             <UploaderMainUploader
                     uploaderUploaderSettings={uploaderUploaderSettings}
@@ -35,13 +32,10 @@ function UploaderMainFull({sidebarPrimarySelection, uploaderEditorFile, uploader
                     uploaderUploaderData={uploaderUploaderData}
                     uploaderStatus={uploaderStatus}/>
         );
-
     } else {
-
         uploaderMainContent = (
             <UploaderIncomplete/>
         );
-
     }
 
     return (
