@@ -1,5 +1,7 @@
-build
-dist
-samples
-node_modules
+build/
+dist/
+samples/
+node_modules/
+public/font-awesome-icons/
+
 package-lock.json
